@@ -1,0 +1,42 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    padding-left: 120px;
+}
+
+h1{
+    float: left;
+}
+
+.nav{
+    float: right;
+}
+
+.li{
+    text-align: right;
+    color: white;
+    font-weight: 200;
+    font-display: auto;
+    display: inline;
+    text-decoration: none;
+}
+
+.li:hover{
+    color: rgb(210, 120, 36);;
+}
+
+.link{
+    text-align: center;
+    color: white;
+    padding: 110px;
+    font-weight: 200;
+    font-display: auto;
+    display: inline;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(210, 120, 36);
+}

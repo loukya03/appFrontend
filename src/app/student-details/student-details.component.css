@@ -1,0 +1,15 @@
+h2{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.container{
+    border: 2px solid lightgray;
+    background-color: rgba(233, 233, 233, 0.707);
+    width: 1300px;
+    height: 110px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}

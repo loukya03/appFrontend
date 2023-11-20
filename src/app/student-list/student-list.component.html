@@ -1,0 +1,22 @@
+<h2> Student List </h2>
+<table>
+    <thead>
+        <tr>
+            <th> ID </th>
+            <th> Name </th>
+            <th> Department </th>
+            <th> Phone Number </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let student of students">
+            <td> {{student.id}} </td>
+            <td> {{student.name}} </td>
+            <td> {{student.department}} </td>
+            <td> {{student.phonenumber}} </td>
+            <td>
+                <button (click) = "studentDetails(student.id)" class="btn" style="margin-left: 10px;"> Details </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
